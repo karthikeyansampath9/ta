@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  pricing-platform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: apexretail-pricing-app
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./pricing_platform.db
+      - CSV_CHUNK_SIZE=2000
+    volumes:
+      - pricing_data:/app
+    restart: unless-stopped
+
+volumes:
+  pricing_data:

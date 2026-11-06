@@ -1,0 +1,8 @@
+Store ID,SKU,Product Name,Price,Date
+US-0101,SKU-GROC-1001,Organic Whole Milk 1 Gallon,4.29,2026-11-06
+US-0101,,Missing SKU Item,12.50,2026-11-06
+US-0102,SKU-GROC-1002,Negative Price Alert,-3.99,2026-11-06
+UK-0205,SKU-ELEC-2005,Zero Price Alert,0.00,2026-11-06
+DE-0312,SKU-HOME-3001,Invalid Date Item,45.00,invalid-date-format
+,SKU-CARE-4001,Missing Store ID Item,14.00,2026-11-06
+FR-0418,SKU-APPA-5001,,25.00,2026-11-06
